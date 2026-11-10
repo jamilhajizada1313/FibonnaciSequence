@@ -1,16 +1,14 @@
 # Fibonnaci Sequence = 0,1,1,2,3,5,8....
-n = int(input("How many Fibonacci numbers do you want? "))
+n=int(input('how many fibonacci number you want?'))
 
-fib = []
-
-a = 0
-b = 1
-
+fib=[]
+a=0
+b=1
 for i in range(n):
-    fib.append(a)
-    c = a + b
-    a = b 
-    b = c 
-
+ fib = fib + [a];
+ c=a+b
+ a=b
+ b=c
 print(fib)
-print ('jamil')
+ 
+
